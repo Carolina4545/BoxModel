@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Box Model
+		
+	</title>
+	<style >
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+
+		body{
+			
+			font-family: 'Roboto', sans-serif; 
+			text-align: center;
+			}
+			@import url('https://fonts.googleapis.com/css2? family = Roboto & display = swap');
+
+
+		header {
+			background-image:url(logo.png),linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.5)),url(foto.jpg);
+			background-size:100px,cover,cover;
+			/*background-image:url(logo.png),url(foto.jpg);*/
+			background-repeat:no-repeat;
+			background-position:50px 50px,left top, left top;
+			/*background-image: linear-gradient( khaki,black,gold),url(foto.jpg);*/
+			
+			/*background-attachment: scroll;*/
+			background-attachment: scroll,fixed;
+
+			
+			/*background-attachment: linear-gradient(to right,black,brown);
+			/*background-attachment:linear-gradient(to top,black,white);
+			/*background-image:linear-gradient( black,white);
+			/*background-color: #af1641;*/
+
+			/*height:800px;*/			
+			padding-top:90px;
+			margin-bottom: 10px; 
+			 
+		}
+		.menu{
+			
+
+			text-align: right;
+			background-color: #af1641;
+			padding: 20px;
+
+
+		}
+		.menu li{
+			display: inline-block;
+			background-color: orange;
+			padding: 5px;
+			border-radius: 10px;
+			text-align: center;	
+			padding: 10px;
+			margin-top: 10px;
+
+		}
+		.menu a{
+			color: white;
+			text-decoration: none;}
+			
+		.titulo1 {
+			color: #fff;
+			padding-top: 95px;
+			margin-top: 90px;
+			font-size: 40px;
+			font-weight: lighter;
+		}
+
+		.subtitulo1 {
+			color: rgba(255,255,255,.6);
+			text-align: center;
+			font-size: 25px;
+			font-weight: lighter;
+			margin-top: 5px
+		}
+		.boton{
+			background-color: #dc572e;
+			color: rgb(255,255,255,);			
+			text-align: center;letter-spacing: 2px;font-weight: lighter;
+
+			font-family:'Varela'
+			sans-serif;
+			font-size: 16px;
+			
+			width: 210px;
+			padding: 20px ;
+			margin: auto;
+			margin-bottom: : 40px;
+			margin-top:100px;
+
+			border-radius: 10px;
+			cursor:pointer;
+		 }
+			
+		
+		}
+		.seccion{
+				margin-left:  200px;
+				margin-right: 200px;
+		}
+		.parrafo{
+				
+				line-height: 30px;
+				text-align: center;
+				color: #656565;
+				display: inline-block;
+				margin-top: 40px;
+				margin-left-left: : 20px;
+				margin-right-right: 20px;
+				margin-bottom:20px; 
+				height: 50%;
+		}
+		.boton2{
+			background-color: #af1641;
+			color: rgb(255,255,255);			
+			text-align: center;
+
+			width: 210px;
+			padding: 20px ;
+			margin: auto;
+			margin-bottom: : 60px;
+			margin-top:20px;
+			
+			border-radius: 10px;
+			cursor:pointer;
+			font-family: 'Varela', sans-serif;font-size: 17p
+		}
+		.imagen {
+			background-color: #af1641; 
+			margin-top: 60px;
+
+			width:500;
+			padding-top:90px;
+			padding-bottom: 60px;
+		}
+		.parrafo2 {
+				
+				line-height: 30px;
+				text-align: center;
+				color: #fff;
+				display: inline-block;
+				margin-top: 40px;
+				margin-left-left: : 20px;
+				margin-right-right: 20px;
+				margin-bottom:20px; 
+				height: 50%;
+		}
+
+			
+
+
+		.boton3{
+			background-color: #fff;
+			color: #af1641;			
+			text-align: center;
+
+			width: 210px;
+			padding: 20px ;
+			margin: auto;
+			margin-bottom:  60px;
+			margin-top:20px;
+			
+			border-radius: 10px;
+			cursor:pointer;
+			font-family: 'Varela', sans-serif;font-size: 17p
+		}
+		.titulo2 {
+			
+			color: #2B3F48;
+			font-weight: lighter;
+			font-size: 40px;
+			margin-top: 80px;
+			padding-top: 50px;
+			background-image:url(cenefa.png);
+			background-repeat:repeat-x;
+			background-position:center-top,
+			background-color:white;
+			background-size:300px,/*contain,/1000px*/cover;
+			/*background-attachment: scroll;*/
+			
+
+			/*background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(foto.jpg);
+			/*background-attachment: linear-gradient(to right,black,brown);
+			/*background-attachment:linear-gradient(to top,black,white);
+			/*background-image:linear-gradient( black,white);*/
+			/*background-color: #af1641;*/
+
+			
+
+		}
+
+		.subtitulo2 {
+
+			color: #6F6F6F;
+			text-align: center;
+			font-size: 25px;
+			font-weight: lighter;
+				margin-top: 5px}
+
+		
+
+		
+		.clase3 p{
+			display: block;
+			
+		}
+
+		
+		.bloque{
+				display: inline-block;
+		}
+
+		
+
+		
+
+		.footer {
+			background-color: #656565;
+			color: rgba(255,255,255,0.5);
+			height: :400px;
+			padding-bottom: 90px;
+			padding-top: 70px;
+			margin-top: 60px
+		}
+
+	</style>
+</head>
+<body>
+	<nav class="menu">
+		<ul >
+			<li><a href="#">HOMEPAGE</a></li>
+			<li><a href="#">OUR CLIENTS</a></li>
+			<li><a href="#">ABOUT US</a></li>
+			<li><a href="#">CAREERS</a></li>
+			<li><a href="#">CONTACT US</a></li>			
+		</ul>
+	</nav>
+	
+	
+	<header>
+		<!-- <img src="Misfotos/foto.jpg">/foto.jpg"> -->
+		<h1 class="titulo1">ETIAM RHONCUS VOLUTRAT</h1>
+		<h2 class="subtitulo1">PROIN GRAVIDA PORTTITOR ACCUMSAN</h2>
+		<div class="boton">ETIAM POSUERE</div>
+	</header>
+	<section >
+		<h1 class="titulo2">
+			NULLA LUCTUS ELEIFEND
+		</h1>
+		<h2 class="subtitulo2">
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+		</h2>
+		<article class="seccion" >
+			<p class="parrafo" >
+				Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros nibh. Duis enim nulla, luctus eu, dapibus lacinia, venenatis id, quam. Vestibulum imperdiet, magna nec eleifend rutrum, nunc lectus vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor.
+			</p>
+			<div class="boton2">ETIAM POSUERE</div>
+		</article>
+	</section>
+
+	
+	<section class="imagen">
+		<img src="imagen/banner.jpg">
+				
+		<h1 class="titulo1">FUSCE ULTRICES FRINGILLA METUS</h1>
+		<h2 class="subtitulo1">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue</h2>
+
+		<article class="seccion" >
+			<p class="parrafo2" >
+				This is BarbedFlower, a free, fully standards-compliant CSS template designed by TEMPLATED. The photos in this template are from Fotogrph. This free template is released under the Creative Commons Attribution license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :)
+			</p>
+			<div class="boton3">ETIAM POSUERE</div> 
+		</article>
+	</section>
+
+	 <section >
+		<h1 class="titulo2">
+			NULLA LUCTUS ELEIFEND
+		</h1>
+		<h2 class="subtitulo2">
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+		</h2>
+		<article  >
+			<p class="seccion3">
+				Praesent pellentesque facilisis elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+
+<p>Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Donec mattis.</p>
+
+<p>Aenean lectus lorem, imperdiet at, ultrices eget, ornare et, wisi. Pellentesque adipiscing purus.
+			</p>
+			<div class="boton2">ETIAM POSUERE</div>
+		</article>
+	</section>
+
+</body>
+<footer class="footer">
+	<p>
+		&copy; Untitled. All rights reserved. | Photos by Fotogrph | Design by TEMPLATED.
+	</p>
+</footer>
+</html>
+
+
